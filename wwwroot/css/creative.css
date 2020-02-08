@@ -512,3 +512,52 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.projects .item .project-image:hover {
+    -webkit-opacity: .8;
+    -moz-opacity: .8;
+    opacity: .8;
+}
+
+.projects .featured img {
+    margin-bottom: 30px;
+}
+
+.prj-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.projects .featured-image .ribbon {
+    position: absolute;
+    top: 242px;
+    right: 16px;
+    width: 114px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.projects .featured-image .ribbon .text {
+    font-family: 'Montserrat',sans-serif;
+    position: relative;
+    left: -8px;
+    top: 18px;
+    width: 158px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #479fc8;
+    -webkit-transform: rotate(45deg) translate3d(0,0,0);
+    -moz-transform: rotate(45deg) translate3d(0,0,0);
+    -ms-transform: rotate(45deg) translate3d(0,0,0);
+    -o-transform: rotate(45deg) translate3d(0,0,0);
+}
+.projects .featured-image .text {
+    background: #3aaa64;
+    color: #fff;
+}
+
